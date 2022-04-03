@@ -13,3 +13,8 @@ data.push(newobj)
 const toModifyIdx = data.findIndex(item => item.id ===2);
 data[toModifyIdx].age=18;
 
+// delete object 
+
+const toDeleteIndx = data.findIndex(item=>item.id === 1);
+data.splice(toDeleteIndx,1);
+
